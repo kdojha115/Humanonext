@@ -1,13 +1,13 @@
 import React from "react"
 import Cards from "../Card/Cards"
 import  ScrollableTabsButtonVisible  from "../Technology/Technologies"
-import Test from "../Technology/test"
-import Test1 from "../Technology/test1"
-import Test2 from "../Technology/test2"
+
 import Test3 from "../Technology/test3"
 import AlumniSlider from "../AlumniSlider/AlumniSlider"
 import CompaniesLogo from "../AlumniSlider/CompaniesLogo"
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs"
+import Footer from "../Footer/Footer"
+
 
 
 
@@ -38,7 +38,10 @@ const Body = () =>{
             <div>
                 <WhyChooseUs/>
             </div>
-            
+
+            <div>
+                <Footer/>
+            </div>        
         </>
     )
 }

@@ -16,34 +16,34 @@ const Cards = () =>{
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1000,
-        nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+  //       nextArrow: <NextArrow />,
+  //   prevArrow: <PrevArrow />,
+  //   responsive: [
+  //     {
+  //       breakpoint: 768,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 992,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1,
+  //       },
+  //     },
+  //   ],
+  // };
 
-  const NextArrow = (props) => {
-    const { onClick } = props;
-    return <div className="slick-arrow next-arrow" onClick={onClick}></div>;
-  };
+  // const NextArrow = (props) => {
+  //   const { onClick } = props;
+  //   return <div className="slick-arrow next-arrow" onClick={onClick}></div>;
+  // };
 
-  const PrevArrow = (props) => {
-    const { onClick } = props;
-    return <div className="slick-arrow prev-arrow" onClick={onClick}></div>;
+  // const PrevArrow = (props) => {
+  //   const { onClick } = props;
+  //   return <div className="slick-arrow prev-arrow" onClick={onClick}></div>;
   };
 
     
