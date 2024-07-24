@@ -1,0 +1,15 @@
+.categories-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px; /* Optional: Add padding to the container */
+}
+
+.row {
+    display: flex; /* Display children elements in a row */
+}
+
+.category {
+    padding: 10px; /* Optional: Add padding to each category element */
+    margin-right: 10px; /* Optional: Add margin between category elements */
+    white-space: nowrap;
+}

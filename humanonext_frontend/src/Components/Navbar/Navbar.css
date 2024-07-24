@@ -1,0 +1,19 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-top-right.css');
+a {
+    text-decoration: none;
+}
+
+.btn-warning:hover {
+    background-color: whitesmoke; 
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+  
+.navbareffect{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
